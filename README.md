@@ -2,7 +2,7 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-[![Checks](https://github.com/shanbuzaigao/raes/actions/workflows/check.yml/badge.svg)](https://github.com/shanbuzaigao/raes/actions/workflows/check.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22928356.svg)](https://doi.org/10.5281/zenodo.22928356)
+[![Checks](https://github.com/qijunzhu/raes/actions/workflows/check.yml/badge.svg)](https://github.com/qijunzhu/raes/actions/workflows/check.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22928356.svg)](https://doi.org/10.5281/zenodo.22928356)
 
 **Status:** version 0.5.1. I have used the method from start to finish in my own meta-analysis. The skill has been tried three times, once through every stage on a topic from another field. The repository is still changing; the [changelog](CHANGELOG.md) says what changed.
 
@@ -37,7 +37,7 @@ You need Python 3.10 or newer and nothing else. No package has to be installed, 
 
 **1. Install the skill.** In Claude Code or Codex, say:
 
-> Install the skill `raes` from https://github.com/shanbuzaigao/raes.
+> Install the skill `raes` from https://github.com/qijunzhu/raes.
 
 The assistant fetches the repository and puts `skills/raes` into its skills folder. Restart the host, then type `/raes` (Claude Code) or `$raes` (Codex) with a sentence about where you are:
 
@@ -48,7 +48,7 @@ The skill asks, drafts, checks and records. It does not decide for you, and it n
 **2. To look at the method itself, get the repository.**
 
 ```sh
-git clone https://github.com/shanbuzaigao/raes.git
+git clone https://github.com/qijunzhu/raes.git
 cd raes
 ```
 
@@ -175,7 +175,7 @@ If you use RAES, its templates or its skill, please cite this repository. If you
   version = {0.5.1},
   publisher = {Zenodo},
   doi     = {10.5281/zenodo.22928357},
-  url     = {https://github.com/shanbuzaigao/raes}
+  url     = {https://github.com/qijunzhu/raes}
 }
 ```
 

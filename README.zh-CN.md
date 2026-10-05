@@ -2,7 +2,7 @@
 
 [English](README.md) | [简体中文](README.zh-CN.md)
 
-[![Checks](https://github.com/shanbuzaigao/raes/actions/workflows/check.yml/badge.svg)](https://github.com/shanbuzaigao/raes/actions/workflows/check.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22928356.svg)](https://doi.org/10.5281/zenodo.22928356)
+[![Checks](https://github.com/qijunzhu/raes/actions/workflows/check.yml/badge.svg)](https://github.com/qijunzhu/raes/actions/workflows/check.yml) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22928356.svg)](https://doi.org/10.5281/zenodo.22928356)
 
 本文件是英文版 `README.md` 的翻译。两者不一致时以英文为准。
 
@@ -39,7 +39,7 @@ RAES 是我为自己的元分析搭建的工作流。当时文献增长的速度
 
 **1. 装 skill。** 在 Claude Code 或 Codex 里说一句：
 
-> 把 https://github.com/shanbuzaigao/raes 里的 skill `raes` 装上。
+> 把 https://github.com/qijunzhu/raes 里的 skill `raes` 装上。
 
 助手会获取仓库，把 `skills/raes` 放进它的 skill 文件夹。重启宿主，然后输入 `/raes`（Claude Code）或 `$raes`（Codex），再用一句话说明你现在到了哪一步：
 
@@ -50,7 +50,7 @@ RAES 是我为自己的元分析搭建的工作流。当时文献增长的速度
 **2. 想了解方法本身，先下载仓库。**
 
 ```sh
-git clone https://github.com/shanbuzaigao/raes.git
+git clone https://github.com/qijunzhu/raes.git
 cd raes
 ```
 
@@ -177,7 +177,7 @@ flowchart TD
   version = {0.5.1},
   publisher = {Zenodo},
   doi     = {10.5281/zenodo.22928357},
-  url     = {https://github.com/shanbuzaigao/raes}
+  url     = {https://github.com/qijunzhu/raes}
 }
 ```
 
